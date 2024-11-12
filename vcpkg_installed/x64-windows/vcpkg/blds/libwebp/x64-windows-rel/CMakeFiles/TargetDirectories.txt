@@ -1,0 +1,16 @@
+C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/blds/libwebp/x64-windows-rel/CMakeFiles/sharpyuv.dir
+C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/blds/libwebp/x64-windows-rel/CMakeFiles/webpdecode.dir
+C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/blds/libwebp/x64-windows-rel/CMakeFiles/webpdspdecode.dir
+C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/blds/libwebp/x64-windows-rel/CMakeFiles/webputilsdecode.dir
+C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/blds/libwebp/x64-windows-rel/CMakeFiles/webpdecoder.dir
+C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/blds/libwebp/x64-windows-rel/CMakeFiles/webpencode.dir
+C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/blds/libwebp/x64-windows-rel/CMakeFiles/webpdsp.dir
+C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/blds/libwebp/x64-windows-rel/CMakeFiles/webputils.dir
+C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/blds/libwebp/x64-windows-rel/CMakeFiles/webp.dir
+C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/blds/libwebp/x64-windows-rel/CMakeFiles/webpdemux.dir
+C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/blds/libwebp/x64-windows-rel/CMakeFiles/libwebpmux.dir
+C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/blds/libwebp/x64-windows-rel/CMakeFiles/edit_cache.dir
+C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/blds/libwebp/x64-windows-rel/CMakeFiles/rebuild_cache.dir
+C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/blds/libwebp/x64-windows-rel/CMakeFiles/list_install_components.dir
+C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/blds/libwebp/x64-windows-rel/CMakeFiles/install.dir
+C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/blds/libwebp/x64-windows-rel/CMakeFiles/install/local.dir

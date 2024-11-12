@@ -1,0 +1,9 @@
+libdir=C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/pkgs/flatbuffers_x64-windows/debug/lib
+includedir=C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/pkgs/flatbuffers_x64-windows/debug/include
+
+Name: FlatBuffers
+Description: Memory Efficient Serialization Library
+Version: 24.3.25
+
+Libs: -L${libdir} -lflatbuffers
+Cflags: -I${includedir}

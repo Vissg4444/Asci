@@ -14,3 +14,19 @@ Abi: 82d278e51e041c3cea810a3d7212e89f4901763da94accacfe42e5f0cff8932e
 Description: The CImg Library is a small, open-source, and modern C++ toolkit for image processing
 Status: install ok installed
 
+Package: vcpkg-cmake-config
+Version: 2024-05-23
+Architecture: x64-windows
+Multi-Arch: same
+Abi: a32293120f29197be2bd3bc94b34191d9a716edcba569a1d10aad6d27e613cd0
+Status: install ok installed
+
+Package: libjpeg-turbo
+Version: 3.0.2
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 0af15edeadf19e3a8c8aed0afe9d95d444c7feb0cbad977d6d4033179b382c30
+Description: libjpeg-turbo is a JPEG image codec that uses SIMD instructions (MMX, SSE2, NEON, AltiVec) to accelerate baseline JPEG compression and decompression on x86, x86-64, ARM, and PowerPC systems.
+Status: install ok installed
+

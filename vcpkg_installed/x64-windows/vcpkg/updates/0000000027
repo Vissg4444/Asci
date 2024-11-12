@@ -1,0 +1,9 @@
+Package: protobuf
+Version: 3.21.12
+Port-Version: 3
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: c0e394355f60a8390abcd65b4d7bf24a9a75b00c440b8eb2f356f9d0b3278a73
+Description: Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data.
+Status: install ok installed

@@ -1,0 +1,26 @@
+[
+{
+  "directory": "C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/blds/flatbuffers/x64-windows-dbg",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe   /TP -DFLATBUFFERS_LOCALE_INDEPENDENT=1 -IC:\\Users\\User\\source\\repos\\Asci\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\flatbuffers\\src\\v24.3.25-0f065ed72a.clean\\include -IC:\\Users\\User\\source\\repos\\Asci\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\flatbuffers\\src\\v24.3.25-0f065ed72a.clean\\grpc  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /GR /EHsc /MP  /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1  -MDd /W4 /wd4512 /wd4316 /wd4456 /FoCMakeFiles\\flatbuffers.dir\\src\\idl_parser.cpp.obj /FdCMakeFiles\\flatbuffers.dir\\flatbuffers.pdb /FS -c C:\\Users\\User\\source\\repos\\Asci\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\flatbuffers\\src\\v24.3.25-0f065ed72a.clean\\src\\idl_parser.cpp",
+  "file": "C:\\Users\\User\\source\\repos\\Asci\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\flatbuffers\\src\\v24.3.25-0f065ed72a.clean\\src\\idl_parser.cpp",
+  "output": "CMakeFiles\\flatbuffers.dir\\src\\idl_parser.cpp.obj"
+},
+{
+  "directory": "C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/blds/flatbuffers/x64-windows-dbg",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe   /TP -DFLATBUFFERS_LOCALE_INDEPENDENT=1 -IC:\\Users\\User\\source\\repos\\Asci\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\flatbuffers\\src\\v24.3.25-0f065ed72a.clean\\include -IC:\\Users\\User\\source\\repos\\Asci\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\flatbuffers\\src\\v24.3.25-0f065ed72a.clean\\grpc  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /GR /EHsc /MP  /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1  -MDd /W4 /wd4512 /wd4316 /wd4456 /FoCMakeFiles\\flatbuffers.dir\\src\\idl_gen_text.cpp.obj /FdCMakeFiles\\flatbuffers.dir\\flatbuffers.pdb /FS -c C:\\Users\\User\\source\\repos\\Asci\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\flatbuffers\\src\\v24.3.25-0f065ed72a.clean\\src\\idl_gen_text.cpp",
+  "file": "C:\\Users\\User\\source\\repos\\Asci\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\flatbuffers\\src\\v24.3.25-0f065ed72a.clean\\src\\idl_gen_text.cpp",
+  "output": "CMakeFiles\\flatbuffers.dir\\src\\idl_gen_text.cpp.obj"
+},
+{
+  "directory": "C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/blds/flatbuffers/x64-windows-dbg",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe   /TP -DFLATBUFFERS_LOCALE_INDEPENDENT=1 -IC:\\Users\\User\\source\\repos\\Asci\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\flatbuffers\\src\\v24.3.25-0f065ed72a.clean\\include -IC:\\Users\\User\\source\\repos\\Asci\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\flatbuffers\\src\\v24.3.25-0f065ed72a.clean\\grpc  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /GR /EHsc /MP  /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1  -MDd /W4 /wd4512 /wd4316 /wd4456 /FoCMakeFiles\\flatbuffers.dir\\src\\reflection.cpp.obj /FdCMakeFiles\\flatbuffers.dir\\flatbuffers.pdb /FS -c C:\\Users\\User\\source\\repos\\Asci\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\flatbuffers\\src\\v24.3.25-0f065ed72a.clean\\src\\reflection.cpp",
+  "file": "C:\\Users\\User\\source\\repos\\Asci\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\flatbuffers\\src\\v24.3.25-0f065ed72a.clean\\src\\reflection.cpp",
+  "output": "CMakeFiles\\flatbuffers.dir\\src\\reflection.cpp.obj"
+},
+{
+  "directory": "C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/blds/flatbuffers/x64-windows-dbg",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe   /TP -DFLATBUFFERS_LOCALE_INDEPENDENT=1 -IC:\\Users\\User\\source\\repos\\Asci\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\flatbuffers\\src\\v24.3.25-0f065ed72a.clean\\include -IC:\\Users\\User\\source\\repos\\Asci\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\flatbuffers\\src\\v24.3.25-0f065ed72a.clean\\grpc  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /GR /EHsc /MP  /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1  -MDd /W4 /wd4512 /wd4316 /wd4456 /FoCMakeFiles\\flatbuffers.dir\\src\\util.cpp.obj /FdCMakeFiles\\flatbuffers.dir\\flatbuffers.pdb /FS -c C:\\Users\\User\\source\\repos\\Asci\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\flatbuffers\\src\\v24.3.25-0f065ed72a.clean\\src\\util.cpp",
+  "file": "C:\\Users\\User\\source\\repos\\Asci\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\flatbuffers\\src\\v24.3.25-0f065ed72a.clean\\src\\util.cpp",
+  "output": "CMakeFiles\\flatbuffers.dir\\src\\util.cpp.obj"
+}
+]

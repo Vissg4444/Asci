@@ -1,0 +1,9 @@
+C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/blds/protobuf/x64-windows-rel/CMakeFiles/libprotobuf-lite.dir
+C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/blds/protobuf/x64-windows-rel/CMakeFiles/libprotobuf.dir
+C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/blds/protobuf/x64-windows-rel/CMakeFiles/libprotoc.dir
+C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/blds/protobuf/x64-windows-rel/CMakeFiles/protoc.dir
+C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/blds/protobuf/x64-windows-rel/CMakeFiles/edit_cache.dir
+C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/blds/protobuf/x64-windows-rel/CMakeFiles/rebuild_cache.dir
+C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/blds/protobuf/x64-windows-rel/CMakeFiles/list_install_components.dir
+C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/blds/protobuf/x64-windows-rel/CMakeFiles/install.dir
+C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/blds/protobuf/x64-windows-rel/CMakeFiles/install/local.dir

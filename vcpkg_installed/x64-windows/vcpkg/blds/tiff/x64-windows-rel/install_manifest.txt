@@ -1,0 +1,11 @@
+C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/pkgs/tiff_x64-windows/lib/pkgconfig/libtiff-4.pc
+C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/pkgs/tiff_x64-windows/lib/tiff.lib
+C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/pkgs/tiff_x64-windows/bin/tiff.dll
+C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/pkgs/tiff_x64-windows/include/tiff.h
+C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/pkgs/tiff_x64-windows/include/tiffio.h
+C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/pkgs/tiff_x64-windows/include/tiffvers.h
+C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/pkgs/tiff_x64-windows/include/tiffconf.h
+C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/pkgs/tiff_x64-windows/lib/cmake/tiff/TiffTargets.cmake
+C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/pkgs/tiff_x64-windows/lib/cmake/tiff/TiffTargets-release.cmake
+C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/pkgs/tiff_x64-windows/lib/cmake/tiff/TiffConfigVersion.cmake
+C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/pkgs/tiff_x64-windows/lib/cmake/tiff/TiffConfig.cmake

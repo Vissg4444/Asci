@@ -1,6 +1,7 @@
 {
   "dependencies": [
     "cimg",
-    "libjpeg-turbo"
+    "libjpeg-turbo",
+    "opencv"
   ]
 }

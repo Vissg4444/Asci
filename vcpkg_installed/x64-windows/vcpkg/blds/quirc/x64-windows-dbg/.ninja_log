@@ -1,0 +1,7 @@
+# ninja log v5
+2	53	7519930018449075	CMakeFiles/quirc.dir/lib/decode.c.obj	2d18c9de8d818097
+11	54	7519930018459079	CMakeFiles/quirc.dir/lib/version_db.c.obj	6587d1dd6de12511
+8	55	7519930018479077	CMakeFiles/quirc.dir/lib/quirc.c.obj	4c7430f0ab3fda1
+5	59	7519930018514076	CMakeFiles/quirc.dir/lib/identify.c.obj	a1324945ab0a72ef
+59	88	7519930018794077	quirc.lib	d97171db67eec2b3
+88	143	0	CMakeFiles/install.util	a892f1fb71fcb921

@@ -1,0 +1,13 @@
+//user-defined headers
+#include "C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/blds/opencv4/src/4.8.0-2bf495557d.clean/modules/core/misc/python/pyopencv_async.hpp"
+#include "C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/blds/opencv4/src/4.8.0-2bf495557d.clean/modules/core/misc/python/pyopencv_core.hpp"
+#include "C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/blds/opencv4/src/4.8.0-2bf495557d.clean/modules/core/misc/python/pyopencv_cuda.hpp"
+#include "C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/blds/opencv4/src/4.8.0-2bf495557d.clean/modules/core/misc/python/pyopencv_umat.hpp"
+#include "C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/blds/opencv4/src/4.8.0-2bf495557d.clean/modules/flann/misc/python/pyopencv_flann.hpp"
+#include "C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/blds/opencv4/src/4.8.0-2bf495557d.clean/modules/ml/misc/python/pyopencv_ml.hpp"
+#include "C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/blds/opencv4/src/4.8.0-2bf495557d.clean/modules/dnn/misc/python/pyopencv_dnn.hpp"
+#include "C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/blds/opencv4/src/4.8.0-2bf495557d.clean/modules/features2d/misc/python/pyopencv_features2d.hpp"
+#include "C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/blds/opencv4/src/4.8.0-2bf495557d.clean/modules/videoio/misc/python/pyopencv_videoio.hpp"
+#include "C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/blds/opencv4/src/4.8.0-2bf495557d.clean/modules/objdetect/misc/python/pyopencv_objdetect.hpp"
+#include "C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/blds/opencv4/src/4.8.0-2bf495557d.clean/modules/stitching/misc/python/pyopencv_stitching.hpp"
+#include "C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/blds/opencv4/src/4.8.0-2bf495557d.clean/modules/video/misc/python/pyopencv_video.hpp"

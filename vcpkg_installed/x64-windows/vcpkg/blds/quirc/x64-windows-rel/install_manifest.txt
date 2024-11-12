@@ -1,0 +1,4 @@
+C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/pkgs/quirc_x64-windows/lib/quirc.lib
+C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/pkgs/quirc_x64-windows/include/quirc.h
+C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/pkgs/quirc_x64-windows/share/quirc/quirc-config.cmake
+C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/pkgs/quirc_x64-windows/share/quirc/quirc-config-release.cmake

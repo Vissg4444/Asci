@@ -1,21 +1,40 @@
-#define cimg_use_jpeg
-#include "CImg.h"
-using namespace cimg_library;
+#include <opencv2/core.hpp>
+#include <opencv2/imgcodecs.hpp>
+#include <opencv2/highgui.hpp>
+#include <opencv2/imgproc.hpp>
 
-int main() {
-   //CImg<unsigned char> image("image.ppm"), visu(500, 400, 1, 3, 0);
-   CImg<unsigned char> image("cat.jpg"), visu(500, 400, 1, 3, 0);
-   const unsigned char red[] = { 255,0,0 }, green[] = { 0,255,0 }, blue[] = { 0,0,255 };
-   image.blur(0);
-   CImgDisplay main_disp(image, "Click a point"), draw_disp(visu, "Intensity profile");
-   while ( !main_disp.is_closed() && !draw_disp.is_closed() ) {
-      main_disp.wait();
-      if ( main_disp.button() && main_disp.mouse_y() >= 0 ) {
-         const int y = main_disp.mouse_y();
-         visu.fill(0).draw_graph(image.get_crop(0, y, 0, 0, image.width() - 1, y, 0, 0), red, 1, 1, 0, 255, 0);
-         visu.draw_graph(image.get_crop(0, y, 0, 1, image.width() - 1, y, 0, 1), green, 1, 1, 0, 255, 0);
-         visu.draw_graph(image.get_crop(0, y, 0, 2, image.width() - 1, y, 0, 2), blue, 1, 1, 0, 255, 0).display(draw_disp);
-      }
+#include <iostream>
+
+using namespace std;
+using namespace cv;
+
+int main() 
+{
+
+   string image_path = samples::findFile("cat white.jpg");
+   Mat img = imread(image_path, IMREAD_COLOR);
+
+   if ( img.empty())
+   {
+      cout << "Cannot find file: " << image_path << endl;
+      return 1;
    }
+   
+   float gamma = 10; // gamma < 1 => image brighter
+
+   Mat lookUpTable(1, 256, CV_8U);
+
+   uchar *p = lookUpTable.ptr();
+   for ( int i = 0; i < 256; ++i )
+      p[i] = saturate_cast<uchar>(pow(i / 255.0, gamma) * 255.0);
+
+   Mat res = img.clone();
+   LUT(img, lookUpTable, res);
+
+   imshow("My image", img);
+   imshow("My gamma image", res);
+
+   int k = waitKey(0); // Wait for a keystroke in the window
+
    return 0;
 }

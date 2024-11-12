@@ -1,0 +1,6 @@
+C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/blds/liblzma/x64-windows-dbg/CMakeFiles/liblzma.dir
+C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/blds/liblzma/x64-windows-dbg/CMakeFiles/edit_cache.dir
+C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/blds/liblzma/x64-windows-dbg/CMakeFiles/rebuild_cache.dir
+C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/blds/liblzma/x64-windows-dbg/CMakeFiles/list_install_components.dir
+C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/blds/liblzma/x64-windows-dbg/CMakeFiles/install.dir
+C:/Users/User/source/repos/Asci/vcpkg_installed/x64-windows/vcpkg/blds/liblzma/x64-windows-dbg/CMakeFiles/install/local.dir
