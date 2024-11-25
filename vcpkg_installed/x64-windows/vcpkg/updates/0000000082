@@ -1,0 +1,10 @@
+Package: tiff
+Version: 4.6.0
+Port-Version: 4
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: cd16098e29dc22a6ba7300a606177c5d9192e2eac6493e6b4f4a1af4b9cee6da
+Description: A library that supports the manipulation of TIFF image files
+Default-Features: jpeg, lzma, zip
+Status: install ok half-installed

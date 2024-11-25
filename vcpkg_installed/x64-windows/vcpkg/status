@@ -30,3 +30,225 @@ Abi: 0af15edeadf19e3a8c8aed0afe9d95d444c7feb0cbad977d6d4033179b382c30
 Description: libjpeg-turbo is a JPEG image codec that uses SIMD instructions (MMX, SSE2, NEON, AltiVec) to accelerate baseline JPEG compression and decompression on x86, x86-64, ARM, and PowerPC systems.
 Status: install ok installed
 
+Package: libwebp
+Version: 1.4.0
+Port-Version: 1
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: d14047a8ec8b2e80f138ca094a215717b41df389f08d777d3a046dc74ed6b3ba
+Description: WebP codec: library to encode and decode images in WebP format
+Default-Features: libwebpmux, nearlossless, simd
+Status: install ok installed
+
+Package: libwebp
+Feature: libwebpmux
+Architecture: x64-windows
+Multi-Arch: same
+Description: Build the libwebpmux library
+Status: install ok installed
+
+Package: libwebp
+Feature: nearlossless
+Architecture: x64-windows
+Multi-Arch: same
+Description: Enable near-lossless encoding
+Status: install ok installed
+
+Package: libwebp
+Feature: simd
+Architecture: x64-windows
+Multi-Arch: same
+Description: Enable any SIMD optimization.
+Status: install ok installed
+
+Package: libwebp
+Feature: unicode
+Architecture: x64-windows
+Multi-Arch: same
+Description: Build Unicode executables. (Adds definition UNICODE and _UNICODE)
+Status: install ok installed
+
+Package: zlib
+Version: 1.3.1
+Depends: vcpkg-cmake
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 3061d11a321b2d2ddf5a0a5c0b46831ce77768da8a51f671b7033209b642d783
+Description: A compression library
+Status: install ok installed
+
+Package: liblzma
+Version: 5.4.4
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: b452cbf0bf5ca3504893ba49cdc51ba502d8eb28117ed2434ad78c0f2319e737
+Description: Compression library with an API similar to that of zlib.
+Status: install ok installed
+
+Package: tiff
+Version: 4.6.0
+Port-Version: 4
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: b4872446f2d65d3af7da6b840282494a7e26fffa9729959d04a170083b73fc45
+Description: A library that supports the manipulation of TIFF image files
+Default-Features: jpeg, lzma, zip
+Status: install ok installed
+
+Package: tiff
+Feature: jpeg
+Depends: libjpeg-turbo
+Architecture: x64-windows
+Multi-Arch: same
+Description: Support JPEG compression in TIFF image files
+Status: install ok installed
+
+Package: tiff
+Feature: lzma
+Depends: liblzma
+Architecture: x64-windows
+Multi-Arch: same
+Description: Support LZMA compression in TIFF image files
+Status: install ok installed
+
+Package: tiff
+Feature: zip
+Depends: zlib
+Architecture: x64-windows
+Multi-Arch: same
+Description: Support ZIP/deflate compression in TIFF image files
+Status: install ok installed
+
+Package: quirc
+Version: 1.2
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 26c37bcc750682ea2e7261240afc7a31436fb7b1550e6f6662c6880dc86afde9
+Description: quirc is one of the C library available for scanning QR Codes
+Status: install ok installed
+
+Package: libpng
+Version: 1.6.43
+Port-Version: 2
+Depends: vcpkg-cmake, vcpkg-cmake-config, zlib
+Architecture: x64-windows
+Multi-Arch: same
+Abi: f332d63c57f4d316bb5b143d47a096ec8d956ca64bd381c5cf7a17a6dfbe8fb7
+Description: libpng is a library implementing an interface for reading and writing PNG (Portable Network Graphics) format files
+Status: install ok installed
+
+Package: protobuf
+Version: 3.21.12
+Port-Version: 3
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: c0e394355f60a8390abcd65b4d7bf24a9a75b00c440b8eb2f356f9d0b3278a73
+Description: Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data.
+Status: install ok installed
+
+Package: flatbuffers
+Version: 24.3.25
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 80578e3c459698eb0e4f089b36858cdb6a8d02595f66a0a4f03aedc024c08f55
+Description: FlatBuffers is a cross platform serialization library architected for maximum memory efficiency. It allows you to directly access serialized data without parsing/unpacking it first, while still having great forwards/backwards compatibility.
+Status: install ok installed
+
+Package: vcpkg-get-python-packages
+Version: 2024-01-24
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 1c32bfa1afedbe88f4ac2fc6b5fb0eecb0c440c0a5362370e47dd52686c82886
+Status: install ok installed
+
+Package: opencv4
+Version: 4.8.0
+Port-Version: 19
+Depends: vcpkg-cmake, vcpkg-cmake-config, vcpkg-get-python-packages, zlib
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 42df30341cf7103588c2c4bbccaab3eda575000e90ee65b5991eb541697addd5
+Description: computer vision library
+Default-Features: default-features
+Status: install ok installed
+
+Package: opencv4
+Feature: default-features
+Architecture: x64-windows
+Multi-Arch: same
+Description: Platform-dependent default features
+Status: install ok installed
+
+Package: opencv4
+Feature: dnn
+Depends: flatbuffers, protobuf
+Architecture: x64-windows
+Multi-Arch: same
+Description: Enable dnn module
+Status: install ok installed
+
+Package: opencv4
+Feature: jpeg
+Depends: libjpeg-turbo
+Architecture: x64-windows
+Multi-Arch: same
+Description: JPEG support for opencv
+Status: install ok installed
+
+Package: opencv4
+Feature: png
+Depends: libpng
+Architecture: x64-windows
+Multi-Arch: same
+Description: PNG support for opencv
+Status: install ok installed
+
+Package: opencv4
+Feature: quirc
+Depends: quirc
+Architecture: x64-windows
+Multi-Arch: same
+Description: Enable QR code module
+Status: install ok installed
+
+Package: opencv4
+Feature: tiff
+Depends: tiff
+Architecture: x64-windows
+Multi-Arch: same
+Description: TIFF support for opencv
+Status: install ok installed
+
+Package: opencv4
+Feature: webp
+Depends: libwebp
+Architecture: x64-windows
+Multi-Arch: same
+Description: WebP support for opencv
+Status: install ok installed
+
+Package: opencv
+Version: 4.8.0
+Port-Version: 1
+Depends: opencv4
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 627d347d61b0c8b501c9e878c6342d84620459a18fdc0e1f45ee7099192c1e49
+Description: Computer vision library
+Default-Features: default-features
+Status: install ok installed
+
+Package: opencv
+Feature: default-features
+Depends: opencv4
+Architecture: x64-windows
+Multi-Arch: same
+Description: Platform-dependent default features
+Status: install ok installed
+

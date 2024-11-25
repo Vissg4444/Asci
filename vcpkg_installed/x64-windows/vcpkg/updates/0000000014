@@ -1,10 +1,7 @@
-Package: tiff
-Version: 4.6.0
-Port-Version: 4
-Depends: vcpkg-cmake, vcpkg-cmake-config
+Package: opencv4
+Feature: tiff
+Depends: tiff
 Architecture: x64-windows
 Multi-Arch: same
-Abi: b4872446f2d65d3af7da6b840282494a7e26fffa9729959d04a170083b73fc45
-Description: A library that supports the manipulation of TIFF image files
-Default-Features: jpeg, lzma, zip
-Status: install ok half-installed
+Description: TIFF support for opencv
+Status: purge ok not-installed

@@ -1,10 +1,7 @@
-Package: libwebp
-Version: 1.4.0
-Port-Version: 1
-Depends: vcpkg-cmake, vcpkg-cmake-config
+Package: opencv4
+Feature: webp
+Depends: libwebp
 Architecture: x64-windows
 Multi-Arch: same
-Abi: d14047a8ec8b2e80f138ca094a215717b41df389f08d777d3a046dc74ed6b3ba
-Description: WebP codec: library to encode and decode images in WebP format
-Default-Features: libwebpmux, nearlossless, simd
-Status: install ok installed
+Description: WebP support for opencv
+Status: purge ok half-installed

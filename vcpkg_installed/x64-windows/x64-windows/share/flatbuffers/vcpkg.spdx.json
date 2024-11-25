@@ -3,13 +3,13 @@
   "spdxVersion": "SPDX-2.2",
   "dataLicense": "CC0-1.0",
   "SPDXID": "SPDXRef-DOCUMENT",
-  "documentNamespace": "https://spdx.org/spdxdocs/flatbuffers-x64-windows-24.3.25-3256593b-e7f4-459c-97dc-d609153d5421",
-  "name": "flatbuffers:x64-windows@24.3.25 80578e3c459698eb0e4f089b36858cdb6a8d02595f66a0a4f03aedc024c08f55",
+  "documentNamespace": "https://spdx.org/spdxdocs/flatbuffers-x64-windows-24.3.25-a610677c-321a-4262-80c3-5578b5cf512e",
+  "name": "flatbuffers:x64-windows@24.3.25 aef3b0e6cbf6d48e24e396d47c4150e511bf5821ab22305fcbca580476c265e3",
   "creationInfo": {
     "creators": [
-      "Tool: vcpkg-2024-06-10-02590c430e4ed9215d27870138c2e579cc338772"
+      "Tool: vcpkg-2024-09-18-5f5da308dd1dd3cc49641c60eafff176e248a9dd"
     ],
-    "created": "2024-10-30T12:06:05Z"
+    "created": "2024-11-23T02:54:02Z"
   },
   "relationships": [
     {
@@ -69,7 +69,7 @@
     {
       "name": "flatbuffers:x64-windows",
       "SPDXID": "SPDXRef-binary",
-      "versionInfo": "80578e3c459698eb0e4f089b36858cdb6a8d02595f66a0a4f03aedc024c08f55",
+      "versionInfo": "aef3b0e6cbf6d48e24e396d47c4150e511bf5821ab22305fcbca580476c265e3",
       "downloadLocation": "NONE",
       "licenseConcluded": "Apache-2.0",
       "licenseDeclared": "NOASSERTION",

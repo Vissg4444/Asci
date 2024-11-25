@@ -1,6 +1,7 @@
-Package: libwebp
-Feature: libwebpmux
+Package: opencv
+Feature: default-features
+Depends: opencv4
 Architecture: x64-windows
 Multi-Arch: same
-Description: Build the libwebpmux library
-Status: install ok half-installed
+Description: Platform-dependent default features
+Status: purge ok half-installed

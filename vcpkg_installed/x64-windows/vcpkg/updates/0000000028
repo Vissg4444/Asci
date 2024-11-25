@@ -1,8 +1,8 @@
-Package: flatbuffers
-Version: 24.3.25
+Package: quirc
+Version: 1.2
 Depends: vcpkg-cmake, vcpkg-cmake-config
 Architecture: x64-windows
 Multi-Arch: same
-Abi: 80578e3c459698eb0e4f089b36858cdb6a8d02595f66a0a4f03aedc024c08f55
-Description: FlatBuffers is a cross platform serialization library architected for maximum memory efficiency. It allows you to directly access serialized data without parsing/unpacking it first, while still having great forwards/backwards compatibility.
-Status: install ok half-installed
+Abi: 26c37bcc750682ea2e7261240afc7a31436fb7b1550e6f6662c6880dc86afde9
+Description: quirc is one of the C library available for scanning QR Codes
+Status: purge ok half-installed

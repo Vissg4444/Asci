@@ -1,7 +1,6 @@
-Package: opencv4
-Feature: png
-Depends: libpng
+Package: libwebp
+Feature: simd
 Architecture: x64-windows
 Multi-Arch: same
-Description: PNG support for opencv
-Status: install ok installed
+Description: Enable any SIMD optimization.
+Status: purge ok half-installed

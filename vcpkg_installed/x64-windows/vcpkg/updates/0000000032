@@ -1,10 +1,7 @@
-Package: opencv4
-Version: 4.8.0
-Port-Version: 19
-Depends: vcpkg-cmake, vcpkg-cmake-config, vcpkg-get-python-packages, zlib
+Package: tiff
+Feature: lzma
+Depends: liblzma
 Architecture: x64-windows
 Multi-Arch: same
-Abi: 42df30341cf7103588c2c4bbccaab3eda575000e90ee65b5991eb541697addd5
-Description: computer vision library
-Default-Features: default-features
-Status: install ok half-installed
+Description: Support LZMA compression in TIFF image files
+Status: purge ok half-installed

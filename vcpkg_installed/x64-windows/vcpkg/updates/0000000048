@@ -1,10 +1,6 @@
-Package: opencv
-Version: 4.8.0
-Port-Version: 1
-Depends: opencv4
+Package: libwebp
+Feature: unicode
 Architecture: x64-windows
 Multi-Arch: same
-Abi: 627d347d61b0c8b501c9e878c6342d84620459a18fdc0e1f45ee7099192c1e49
-Description: Computer vision library
-Default-Features: default-features
-Status: install ok half-installed
+Description: Build Unicode executables. (Adds definition UNICODE and _UNICODE)
+Status: purge ok not-installed

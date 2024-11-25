@@ -1,7 +1,6 @@
-Package: opencv4
-Feature: jpeg
-Depends: libjpeg-turbo
+Package: libwebp
+Feature: unicode
 Architecture: x64-windows
 Multi-Arch: same
-Description: JPEG support for opencv
-Status: install ok installed
+Description: Build Unicode executables. (Adds definition UNICODE and _UNICODE)
+Status: purge ok half-installed

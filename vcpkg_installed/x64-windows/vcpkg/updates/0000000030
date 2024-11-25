@@ -1,6 +1,10 @@
-Package: vcpkg-get-python-packages
-Version: 2024-01-24
+Package: tiff
+Version: 4.6.0
+Port-Version: 4
+Depends: vcpkg-cmake, vcpkg-cmake-config
 Architecture: x64-windows
 Multi-Arch: same
-Abi: 1c32bfa1afedbe88f4ac2fc6b5fb0eecb0c440c0a5362370e47dd52686c82886
-Status: install ok half-installed
+Abi: b4872446f2d65d3af7da6b840282494a7e26fffa9729959d04a170083b73fc45
+Description: A library that supports the manipulation of TIFF image files
+Default-Features: jpeg, lzma, zip
+Status: purge ok half-installed

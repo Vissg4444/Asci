@@ -1,6 +1,7 @@
-Package: libwebp
-Feature: simd
+Package: opencv
+Feature: default-features
+Depends: opencv4
 Architecture: x64-windows
 Multi-Arch: same
-Description: Enable any SIMD optimization.
-Status: install ok half-installed
+Description: Platform-dependent default features
+Status: purge ok not-installed

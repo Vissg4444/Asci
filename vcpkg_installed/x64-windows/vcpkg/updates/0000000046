@@ -1,7 +1,6 @@
-Package: opencv4
-Feature: tiff
-Depends: tiff
+Package: libwebp
+Feature: libwebpmux
 Architecture: x64-windows
 Multi-Arch: same
-Description: TIFF support for opencv
-Status: install ok installed
+Description: Build the libwebpmux library
+Status: purge ok half-installed

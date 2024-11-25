@@ -1,7 +1,6 @@
-Package: tiff
-Feature: zip
-Depends: zlib
+Package: vcpkg-get-python-packages
+Version: 2024-01-24
 Architecture: x64-windows
 Multi-Arch: same
-Description: Support ZIP/deflate compression in TIFF image files
-Status: install ok installed
+Abi: 1c32bfa1afedbe88f4ac2fc6b5fb0eecb0c440c0a5362370e47dd52686c82886
+Status: purge ok not-installed

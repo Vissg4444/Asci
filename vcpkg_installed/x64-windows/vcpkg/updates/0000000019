@@ -1,7 +1,6 @@
-Package: tiff
-Feature: jpeg
-Depends: libjpeg-turbo
+Package: opencv4
+Feature: default-features
 Architecture: x64-windows
 Multi-Arch: same
-Description: Support JPEG compression in TIFF image files
-Status: install ok installed
+Description: Platform-dependent default features
+Status: purge ok not-installed

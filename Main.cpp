@@ -20,7 +20,7 @@ static string pixel_to_ascii(int intensity)
 int main() 
 {
    cv::utils::logging::setLogLevel(cv::utils::logging::LogLevel::LOG_LEVEL_SILENT);
-   string image_path = samples::findFile("draven.jpg");
+   string image_path = samples::findFile("L.jpg");
    Mat img = imread(image_path, IMREAD_COLOR);
 
    if ( img.empty())
@@ -40,7 +40,7 @@ int main()
    Mat res = img.clone();
    LUT(img, lookUpTable, res);
 
-   int width = 235, height = 65;
+   int width = 115, height = 65;
    Mat grey, resized;
    string ascii;
    cvtColor(img, grey, COLOR_BGR2GRAY);
@@ -54,11 +54,11 @@ int main()
       }
       ascii += "\n";
    }
-
-   /*imshow("My image", img);
-   imshow("My grey image", grey);
-   imshow("My resized image", resized);*/
-   /*imshow("My gamma image", res);*/
+   system("Color 04"); // https://www.geeksforgeeks.org/how-to-print-colored-text-in-c/
+   //imshow("My image", img);
+   //imshow("My grey image", grey);
+   //imshow("My resized image", resized);
+   //imshow("My gamma image", res);
    cout << ascii;
    int k = waitKey(0); // Wait for a keystroke in the window
 

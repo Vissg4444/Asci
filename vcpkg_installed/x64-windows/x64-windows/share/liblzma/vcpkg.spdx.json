@@ -3,13 +3,13 @@
   "spdxVersion": "SPDX-2.2",
   "dataLicense": "CC0-1.0",
   "SPDXID": "SPDXRef-DOCUMENT",
-  "documentNamespace": "https://spdx.org/spdxdocs/liblzma-x64-windows-5.4.4-fc78ae8e-6df9-442e-a178-c461b396c71a",
-  "name": "liblzma:x64-windows@5.4.4 b452cbf0bf5ca3504893ba49cdc51ba502d8eb28117ed2434ad78c0f2319e737",
+  "documentNamespace": "https://spdx.org/spdxdocs/liblzma-x64-windows-5.4.4-0d693fb7-33a7-4b52-89f3-ee29c12ed070",
+  "name": "liblzma:x64-windows@5.4.4 ee459c96fb7aa3ba6b8dfff1a1478e4282af30d2a1f8c15f5ede64942ab78415",
   "creationInfo": {
     "creators": [
-      "Tool: vcpkg-2024-06-10-02590c430e4ed9215d27870138c2e579cc338772"
+      "Tool: vcpkg-2024-09-18-5f5da308dd1dd3cc49641c60eafff176e248a9dd"
     ],
-    "created": "2024-10-30T12:03:04Z"
+    "created": "2024-11-23T02:43:58Z"
   },
   "relationships": [
     {
@@ -119,7 +119,7 @@
     {
       "name": "liblzma:x64-windows",
       "SPDXID": "SPDXRef-binary",
-      "versionInfo": "b452cbf0bf5ca3504893ba49cdc51ba502d8eb28117ed2434ad78c0f2319e737",
+      "versionInfo": "ee459c96fb7aa3ba6b8dfff1a1478e4282af30d2a1f8c15f5ede64942ab78415",
       "downloadLocation": "NONE",
       "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "NOASSERTION",

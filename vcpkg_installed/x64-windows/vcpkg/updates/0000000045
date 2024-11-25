@@ -1,7 +1,6 @@
-Package: opencv4
-Feature: quirc
-Depends: quirc
+Package: libwebp
+Feature: nearlossless
 Architecture: x64-windows
 Multi-Arch: same
-Description: Enable QR code module
-Status: install ok installed
+Description: Enable near-lossless encoding
+Status: purge ok half-installed

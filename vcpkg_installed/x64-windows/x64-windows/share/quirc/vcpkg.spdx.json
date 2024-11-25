@@ -3,13 +3,13 @@
   "spdxVersion": "SPDX-2.2",
   "dataLicense": "CC0-1.0",
   "SPDXID": "SPDXRef-DOCUMENT",
-  "documentNamespace": "https://spdx.org/spdxdocs/quirc-x64-windows-1.2-54dc1d79-849f-4528-91ed-1b497349ec66",
-  "name": "quirc:x64-windows@1.2 26c37bcc750682ea2e7261240afc7a31436fb7b1550e6f6662c6880dc86afde9",
+  "documentNamespace": "https://spdx.org/spdxdocs/quirc-x64-windows-1.2-14cd3533-3962-4eb4-b02b-93e15b280160",
+  "name": "quirc:x64-windows@1.2 be4077fcf900fc7f12dd567599b3cd22ea0b08ba512c86532ff608c33b920209",
   "creationInfo": {
     "creators": [
-      "Tool: vcpkg-2024-06-10-02590c430e4ed9215d27870138c2e579cc338772"
+      "Tool: vcpkg-2024-09-18-5f5da308dd1dd3cc49641c60eafff176e248a9dd"
     ],
-    "created": "2024-10-30T12:03:22Z"
+    "created": "2024-11-23T02:44:54Z"
   },
   "relationships": [
     {
@@ -69,7 +69,7 @@
     {
       "name": "quirc:x64-windows",
       "SPDXID": "SPDXRef-binary",
-      "versionInfo": "26c37bcc750682ea2e7261240afc7a31436fb7b1550e6f6662c6880dc86afde9",
+      "versionInfo": "be4077fcf900fc7f12dd567599b3cd22ea0b08ba512c86532ff608c33b920209",
       "downloadLocation": "NONE",
       "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "NOASSERTION",
